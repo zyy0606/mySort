@@ -9,7 +9,7 @@ public class test{
 			test2[i]=(int)(Math.random()*1000);
 		}
 		mySort.insertionSort(test1);
-		mySort.insertionSort(test2);
+		mySort.shellSort(test2);
 		print(test1);
 		print(test2);
 	}
